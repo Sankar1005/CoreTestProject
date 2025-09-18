@@ -86,5 +86,9 @@ namespace CoreTestProject.Controllers
         {
             return "Id of the user is: " + id + "and name of the user is: " + name;
         }
+        public string Display15(int id, string name)
+        {
+            return "Id of the user is: " + id + "and name of the user is: " + name;
+        }
     }
 }
